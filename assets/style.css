@@ -3,3 +3,65 @@
     clear: both;
     display: table;
   }
+#header {
+  border-bottom:#cccc;
+  border-bottom-style: solid;
+  background:#ffff;
+  height: 90px;
+}
+#shell {
+  width: 960px;
+  margin: auto;
+}
+#logo {
+  background: #4aaaa5;
+  width: 250px;
+  height: 90px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  float: left;
+}
+#navbar {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #ffff;
+}
+li {
+  float: right;
+  list-style: none;
+  border-right: #cccc;
+  border-right-style: solid;
+  font-size: 18px; 
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: #cccc;
+  color: #777777;
+  font-weight: bold;
+}
+#main {
+  background: #ffff;
+  margin-top: 20px;
+}
+#aboutMe {
+  font-size: 40px;
+  border-bottom: #cccc;
+  border-bottom-style: solid;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+#pic {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+}
+#text {
+  display: inline;
+}
